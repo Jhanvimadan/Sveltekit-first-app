@@ -1,4 +1,4 @@
-export async function load({params}){
+export function load({params}){
 
     //const slug= ${params.slug}
     return{
@@ -6,4 +6,4 @@ export async function load({params}){
     } 
 
 }
-//asyn: running only on server side....not being sent to frontend
+//async : running only on server side....not being sent to frontend
